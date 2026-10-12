@@ -4,7 +4,7 @@ cask "lowlight" do
 
   url "https://github.com/Isaac-Harper/lowlight/releases/download/v#{version}/Lowlight-#{version}.zip"
   name "Lowlight"
-  desc "Dim the MacBook keyboard backlight below the macOS minimum"
+  desc "Dims the keyboard backlight below the system minimum"
   homepage "https://github.com/Isaac-Harper/lowlight"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "lowlight" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Lowlight.app"
 
