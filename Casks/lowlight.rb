@@ -1,6 +1,6 @@
 cask "lowlight" do
-  version "1.0.0"
-  sha256 "48a0b965ced69f4f9f30a576b04b5de64286021de5b41342d2242d78c88e09f5"
+  version "1.0.1"
+  sha256 "0613c351b3f33dfea6bd4e4e58f6667b04367eaf4c6b5a082e407ba5878ac9e0"
 
   url "https://github.com/Isaac-Harper/lowlight/releases/download/v#{version}/Lowlight-#{version}.zip"
   name "Lowlight"
